@@ -99,6 +99,7 @@ J = (1/m) * sum(sum((-yVec).*log(h) - (1-yVec).*log(1-h))) + lambda/(2*m) * (sum
 %regu = lambda/(2*m) * regu;
 
 %J = (1/m) * sum(sum((-y_new).*log(h) - (1-y_new).*log(1-h))) + regu;
+%This J is correct and regularization is also correct
 
 %Not Working
 
